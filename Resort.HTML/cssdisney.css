@@ -1,0 +1,70 @@
+/* Barra de navegação responsiva e fixa.*/
+ body{
+  background-image: url("img/backgroundIndex1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 0%;
+  margin: 0%;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 0%
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 0.5% 1%;
+  text-decoration: none;
+  font-size: 100%;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar img {
+ float: left;
+ image-rendering: url("#");
+}
+
+.main {
+  padding: 100%;
+  margin-top: 100%;
+  height: 100%; 
+  }
+  /* Barra de navegação responsiva e fixa.*/
+
+.disney-font h1 {
+  font-family: "serif";
+  src: url(waltografh.ttf) format("truetype");
+}
+
+.container {
+padding: 0.5%;
+margin: 0% 40% 0% 0%; 
+background-color: rgba(2,215,249,0.35);
+background-size: 100%;
+
+}
+.parallax {
+    /* Imagem utilizada */
+    background-image: url("img/backgroundIndex.png");
+
+    /* Especificar a altura */
+    min-height: 100%; 
+
+    /* Criação do efeito parallax*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
